@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/screen_shot"
+        android:orderInCategory="100"
+        android:title="屏幕截图"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/time_open"
+        android:orderInCategory="200"
+        android:title="定时开关机"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/reopen"
+        android:orderInCategory="300"
+        android:title="重启系统"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/sound_ctl"
+        android:orderInCategory="400"
+        android:title="音量控制"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/light_ctl"
+        android:orderInCategory="400"
+        android:title="亮度控制"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/update"
+        android:orderInCategory="400"
+        android:title="系统升级"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/clean"
+        android:orderInCategory="400"
+        android:title="清理缓存"
+        app:showAsAction="never"/>
+
+</menu>
